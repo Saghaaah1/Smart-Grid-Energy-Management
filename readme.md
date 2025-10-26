@@ -44,11 +44,17 @@ Le système se compose de plusieurs modules :
 
 .
 ├── src/                     # Code source Java (handlers, VertxServer.java, etc.)
+
 ├── build.gradle             # Configuration du projet Gradle
+
 ├── docker-compose.yml       # Définition des conteneurs Docker
+
 ├── init_database.sql        # Script SQL d’initialisation de la base
+
 ├── backend_routes.md        # Documentation des routes backend
+
 ├── gradlew / gradlew.bat    # Scripts de build Gradle
+
 └── README.md                # Documentation du projet
 
 ---
@@ -89,7 +95,6 @@ Chaque route utilise un **handler spécifique**, par exemple :
 - Les requêtes **POST**, **PUT** et **DELETE** nécessitent un corps JSON :
   - Testables via **curl** ou **Postman**
   - Exemple :
-```bash
 curl -X POST http://localhost:8080/sensor \
   -H "Content-Type: application/json" \
   -d '{"id": "sensor-1", "type": "solar", "temperature": 28.5, "power": 12.3}'
@@ -106,14 +111,14 @@ docker-compose up --build
 **Arrêter le projet :**
 docker-compose down
 
-** Équipe du Projet: **
+**Équipe du Projet:**
 Sara El Bari – Développement backend, intégration Vert.x & PostgreSQL
 
-** Licence **
+**Licence**
 Projet académique réalisé dans le cadre de l’IMT Atlantique.
 Distribué sous licence Apache 2.0.
 
-** Résumé **
+**Résumé**
 Ce projet démontre la mise en place d’une architecture distribuée avec gestion multi-protocole, stockage persistant et visualisation des données en temps réel.
 Il illustre parfaitement l’intégration logiciel embarqué, cloud et réseau au sein d’un même système.
 
