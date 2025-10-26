@@ -118,7 +118,7 @@ Sara El Bari – Développement backend, intégration Vert.x & PostgreSQL
 Projet académique réalisé dans le cadre de l’IMT Atlantique.
 Distribué sous licence Apache 2.0.
 
-## Résumé
+## Résumé:
 Ce projet démontre la mise en place d’une architecture distribuée avec gestion multi-protocole, stockage persistant et visualisation des données en temps réel.
 Il illustre parfaitement l’intégration logiciel embarqué, cloud et réseau au sein d’un même système.
 
